@@ -19,7 +19,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="19:00 - 20:00"
-                    showName="Earl Gre"
+                    showName="Earl Grey"
                 />
                 <ScheduleItem
                     showTime="20:00 - 21:00"
