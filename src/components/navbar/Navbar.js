@@ -113,11 +113,11 @@ const Navbar = () => {
               <ul>
                 <li><div className="circle red"></div></li>
                 {/* Write "ON" instead of "OFF" (or vice versa) */}
-                <li>Off air</li>
+                <li>ON air</li>
                 <div className="audio-player-container">
                   <Player />
                   {/* Inside the p tags here, write the DJ's name */}
-                  <p className="audio-player-text"></p>
+                  <p className="audio-player-container">MIRE</p>
                 </div>
               </ul>
             </div>
