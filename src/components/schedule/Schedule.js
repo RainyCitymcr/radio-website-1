@@ -57,7 +57,7 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="21:00 - 22:00"
-                    showName="Flushed Aay w/ Dom Thompson"  
+                    showName="Flushed Away w/ Dom Thompson"  
                 // />
                 // <ScheduleItem
                 //     showTime="21:00 - 22:00"
