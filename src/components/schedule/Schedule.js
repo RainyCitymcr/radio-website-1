@@ -31,15 +31,15 @@ const Schedule = () => {
                     showDate="Friday 20th May"
                     />
                     <ScheduleItem
-                        showTime="19:00 - 20:00"
+                        showTime="19:00"
                         showName="DJ Project Manager"
                     />
                     <ScheduleItem
-                        showTime="20:00 - 21:00"
+                        showTime="20:00"
                         showName="Combi Completa"
                     />
                     <ScheduleItem
-                        showTime="21:00 - 22:00"
+                        showTime="21:00"
                         showName= "Dan Traynor"
                 />
             </table>
@@ -48,19 +48,19 @@ const Schedule = () => {
                     showDate="Saturday 14th May"
                 />
                 <ScheduleItem
-                    showTime="19:00 - 20:00"
+                    showTime="19:00"
                     showName="Charlie B presents: Tram Man"
                 />
                 <ScheduleItem
-                    showTime="20:00 - 21:00"
+                    showTime="20:00"
                     showName="Harry Amstel b2b DJ Simcard"
                 />
                 <ScheduleItem
-                    showTime="21:00 - 22:00"
+                    showTime="21:00"
                     showName="Flushed Away w/ Dom Thompson"  
                 // />
                 // <ScheduleItem
-                //     showTime="21:00 - 22:00"
+                //     showTime="21:00"
                 //     showName="Miss Bad B"  
                 />
             </table>
