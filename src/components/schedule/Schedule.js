@@ -11,24 +11,28 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 19th May"
+                    showDate="Thursday 16th June"
                 />
                 <ScheduleItem
-                    showTime="18:00 - 19:00"
+                    showTime="17:00 - 18:00"
+                    showName="Flytipper"
+                />
+                <ScheduleItem
+                    showTime="18:00 - 20:00"
                     showName="MIRE"
-                />
-                <ScheduleItem
-                    showTime="19:00 - 20:00"
-                    showName="Relax and Bake FM"
-                />
-                <ScheduleItem
-                    showTime="20:00 - 21:00"
-                    showName="Trash Bandicoot"    
+                // />
+                // <ScheduleItem
+                //     showTime="20:00 - 21:00"
+                //     showName="Trash Bandicoot"    
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 20th May"
+                    showDate="Friday 17th June"
+                    />
+                    <ScheduleItem
+                        showTime="18:00"
+                        showName= "Miss Bad B"
                     />
                     <ScheduleItem
                         showTime="19:00"
@@ -36,28 +40,28 @@ const Schedule = () => {
                     />
                     <ScheduleItem
                         showTime="20:00"
-                        showName="Combi Completa"
+                        showName="CHARMS"
                     />
                     <ScheduleItem
                         showTime="21:00"
-                        showName= "Dan Traynor"
+                        showName= "This Guy"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Saturday 14th May"
+                    showDate="Saturday 18th June"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="Charlie B presents: Tram Man"
+                    showName="Charlie B"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="Harry Amstel b2b DJ Simcard"
-                />
-                <ScheduleItem
-                    showTime="21:00"
-                    showName="Flushed Away w/ Dom Thompson"  
+                    showName="Bambi & Thumper"
+                // />
+                // <ScheduleItem
+                //     showTime="21:00"
+                //     showName="Flushed Away w/ Dom Thompson"  
                 // />
                 // <ScheduleItem
                 //     showTime="21:00"
