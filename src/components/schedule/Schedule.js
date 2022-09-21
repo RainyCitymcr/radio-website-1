@@ -11,48 +11,48 @@ const Schedule = () => {
             <h1 className="schedule-title">SCHEDULE</h1>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 06.10"
+                    showDate="Wednesday 21.09"
                 />
                     <ScheduleItem
                         showTime="18:00"
-                        showName= "GINA"
+                        showName= "Into the Mists | Joy Ingle"
                     />
                     <ScheduleItem
                         showTime="19:00"
-                        showName="Izzy Iz"
+                        showName="Soza b2b Fiz"
                     />
                     <ScheduleItem
                         showTime="20:00"
-                        showName="Herbal Tea"
+                        showName="JEROME Presents...Madness"
                     />
-                    <ScheduleItem
+                    {/* <ScheduleItem
                         showTime="21:00"
-                        showName= "Harry Amster & DJ Simcard"
+                        showName= "Harry Amster & DJ Simcard" */}
+                    />
+            </table>
+            <table className="schedule-table">
+                <ScheduleDate 
+                    showDate="Thursday 06.10"
+                    />
+                        <ScheduleItem
+                            showTime="18:00"
+                            showName= "GINA"
+                        />
+                        <ScheduleItem
+                            showTime="19:00"
+                            showName="Izzy Iz"
+                        />
+                        <ScheduleItem
+                            showTime="20:00"
+                            showName="Herbal Tea"
+                        />
+                        <ScheduleItem
+                            showTime="21:00"
+                            showName= "Harry Amster & DJ Simcard"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 07.10"
-                    />
-                <ScheduleItem
-                    showTime="18:00"
-                    showName="Yuqq"
-                />
-                <ScheduleItem
-                    showTime="19:00"
-                    showName="Felicia Buena"
-                />
-                <ScheduleItem
-                    showTime="20:00"
-                    showName="hats"  
-                />
-                <ScheduleItem
-                    showTime="21:00"
-                    showName="Alone In The Attic"  
-                />
-            </table>
-            <table className="schedule-table">
-                {/* <ScheduleDate 
                     showDate="Saturday 08.10"
                 />
                 <ScheduleItem
@@ -69,8 +69,8 @@ const Schedule = () => {
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Alone In The Attic"   */}
-                {/* /> */}
+                    showName="Alone In The Attic"
+                />
             </table>
         </div>
     )
