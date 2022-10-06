@@ -9,27 +9,27 @@ const Schedule = () => {
     return (
         <div className="schedule-container" id="schedule">
             <h1 className="schedule-title">SCHEDULE</h1>
-            <table className="schedule-table">
+            {/* <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Wednesday 21.09"
+                    showDate="Thursday 06.10"
                 />
                     <ScheduleItem
                         showTime="18:00"
-                        showName= "Into the Mists | Joy Ingle"
+                        showName= "Herbal Tea w/ George D"
                     />
                     <ScheduleItem
                         showTime="19:00"
-                        showName="Soza b2b Fiz"
+                        showName="Izzy Iz"
                     />
                     <ScheduleItem
                         showTime="20:00"
-                        showName="JEROME Presents...Madness"
+                        showName="DJ Simcard b2b Harry Amstel"
                     />
-                    {/* <ScheduleItem
+                    <ScheduleItem
                         showTime="21:00"
-                        showName= "Harry Amster & DJ Simcard" */}
+                        showName= "GINA"
                     />
-            </table>
+            </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Thursday 06.10"
