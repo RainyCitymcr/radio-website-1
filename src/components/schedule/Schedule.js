@@ -9,7 +9,7 @@ const Schedule = () => {
     return (
         <div className="schedule-container" id="schedule">
             <h1 className="schedule-title">SCHEDULE</h1>
-            {/* <table className="schedule-table">
+            <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Wednesday 19.10"
                 />
@@ -29,7 +29,7 @@ const Schedule = () => {
                         showTime="21:00"
                         showName= "Lindrum"
                     />
-            </table> */}
+            </table>
             <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Thursday 20.10"
