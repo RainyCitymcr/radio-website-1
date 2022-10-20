@@ -22,9 +22,10 @@ const Player = () => {
 
     return (
         <div className="player-wrapper">
-            <audio ref={audioPlayer} src="http://radio.rainycityradio.live:8000/radio.mp3" preload="metadata"></audio>
+            <audio ref={audioPlayer} src="https://strangefm.out.airtime.pro/strangefm_a" preload="metadata"></audio>
             {/* Remove "disabled" from the button tag below. */}
             <button className="play-btn" onClick={togglePlayPause}>{ isPlaying ? <FaStop /> : <FaPlay /> }</button>
+            {/* http://radio.rainycityradio.live:8000/radio.mp3 */}
         </div>
     )
 }
