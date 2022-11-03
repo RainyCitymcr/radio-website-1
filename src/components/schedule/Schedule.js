@@ -9,7 +9,7 @@ const Schedule = () => {
     return (
         <div className="schedule-container" id="schedule">
             <h1 className="schedule-title">SCHEDULE</h1>
-            <table className="schedule-table">
+            {/* <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Wednesday 19.10"
                 />
@@ -29,47 +29,47 @@ const Schedule = () => {
                         showTime="21:00"
                         showName= "Lindrum"
                     />
-            </table>
+            </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 20.10"
+                    showDate="Thursday 03.11"
                     />
                         <ScheduleItem
                             showTime="18:00"
-                            showName="Mire"
+                            showName="The Fat Britney"
+                        />
+                        <ScheduleItem
+                            showTime="19:00"
+                            showName="Izzy Iz"
                         />
                         <ScheduleItem
                             showTime="20:00"
-                            showName="RELAX AND BAKE FM"
+                            showName="Teaching Assistant"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName="Gills"
-                        // />
-                        // <ScheduleItem
-                        //     showTime="21:00"
-                        //     showName= "GINA"
+                            showName= "Herbal Tea w/ George d"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 21.10"
+                    showDate="Friday 04.11"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="Jess Rose"
+                    showName="Yuqq"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="DJ Project Manager"
+                    showName="Access Memory"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="MBB"  
+                    showName="Static Interlude"  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Elsa / Unearth"
+                    showName="Rose A 4eva"
                 />
             </table>
         </div>
