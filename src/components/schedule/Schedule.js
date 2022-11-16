@@ -9,9 +9,9 @@ const Schedule = () => {
     return (
         <div className="schedule-container" id="schedule">
             <h1 className="schedule-title">SCHEDULE</h1>
-            {/* <table className="schedule-table">
+            <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Wednesday 19.10"
+                    showDate="Wednesday 16.11"
                 />
                     <ScheduleItem
                         showTime="18:00"
@@ -19,57 +19,57 @@ const Schedule = () => {
                     />
                     <ScheduleItem
                         showTime="19:00"
-                        showName="menzurrr"
+                        showName="P45 Show w/ Ekkinz"
                     />
                     <ScheduleItem
                         showTime="20:00"
-                        showName="Jerome Presents..."
+                        showName="Jerome Presents...Madness"
                     />
                     <ScheduleItem
                         showTime="21:00"
-                        showName= "Lindrum"
+                        showName= "Lindrum b2b aDeAd"
                     />
-            </table> */}
+            </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 03.11"
+                    showDate="Thursday 17.11"
                     />
                         <ScheduleItem
                             showTime="18:00"
-                            showName="The Fat Britney"
+                            showName="Mire"
                         />
-                        <ScheduleItem
+                        {/* <ScheduleItem
                             showTime="19:00"
                             showName="Izzy Iz"
-                        />
+                        /> */}
                         <ScheduleItem
                             showTime="20:00"
-                            showName="Teaching Assistant"
+                            showName="Relax and Bake FM"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "Herbal Tea w/ George d"
+                            showName= "Liil Bits presents Apricity feat. Jake Martin"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 04.11"
+                    showDate="Friday 17.11"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="Yuqq"
+                    showName="lloydfears w/ Ship Sket"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="Access Memory"
+                    showName="DJ Project Manager"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="Static Interlude"  
+                    showName="MBB"  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Rose A 4eva"
+                    showName="Elsa / Unearth"
                 />
             </table>
         </div>
