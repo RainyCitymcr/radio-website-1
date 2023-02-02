@@ -32,44 +32,44 @@ const Schedule = () => {
             </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 08.12"
+                    showDate="Thursday 02.03"
                     />
                         <ScheduleItem
                             showTime="18:00"
-                            showName="Poison Ivy"
+                            showName="GINA"
                         />
                         <ScheduleItem
                             showTime="19:00"
-                            showName="Earl Grey"
+                            showName="Izzy Iz"
                         />
                         <ScheduleItem
                             showTime="20:00"
-                            showName="FLames Disperse"
+                            showName="herbal tea w/ george d"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "Aiku"
+                            showName= "Gueisen"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 09.12"
+                    showDate="Friday 03.03"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="Marshall Lawrence"
+                    showName="Home listening w/ Natalia"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="MC LOVE"
+                    showName="Yuqq"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="alfaz"  
+                    showName="High Voltage w/ Xariella"  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Charlie B"
+                    showName="Alone in the Attic"
                 />
             </table>
         </div>
