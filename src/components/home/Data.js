@@ -3,8 +3,8 @@ export const homeObjOne = {
     img: 'images/mainlogo.png',
     alt: 'Main logo'
 }
-// export const homeObjTwo = {
-//     headLine: 'Picks',
-//     img: 'images/mainlogo.png',
-//     alt: 'Main logo'
-// }
+export const homeObjTwo = {
+    headLine: 'Picks',
+    img: 'images/mainlogo.png',
+    alt: 'Main logo'
+}
