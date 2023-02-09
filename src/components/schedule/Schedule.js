@@ -32,44 +32,44 @@ const Schedule = () => {
             </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 02.03"
+                    showDate="Thursday 09.02"
                     />
                         <ScheduleItem
                             showTime="18:00"
-                            showName="GINA"
+                            showName="pot luck w/ aisling"
                         />
                         <ScheduleItem
                             showTime="19:00"
-                            showName="Izzy Iz"
+                            showName="Earl Grey"
                         />
                         <ScheduleItem
                             showTime="20:00"
-                            showName="herbal tea w/ george d"
+                            showName="YANG"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "Gueisen"
+                            showName= "Last Minute Film Club w/ Slime Presents"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 03.03"
+                    showDate="Friday 10.02"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="Home listening w/ Natalia"
+                    showName="Teaching Assistant"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="Yuqq"
+                    showName="MC LOVE PRESENTS: DEAF LOOP"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="High Voltage w/ Xariella"  
+                    showName="cabby"  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Alone in the Attic"
+                    showName="alfaz"
                 />
             </table>
         </div>
