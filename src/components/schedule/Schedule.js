@@ -32,48 +32,44 @@ const Schedule = () => {
             </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Wednesday 15.02"
+                    showDate="Thursday 2nd March"
                     />
                         <ScheduleItem
-                            showTime="17:00"
-                            showName="ADOMASLP"
-                        />
-                        <ScheduleItem
                             showTime="18:00"
-                            showName="Disconnection with Paul East"
+                            showName="The Fat Britney"
                         />
                         <ScheduleItem
                             showTime="19:00"
-                            showName="Soood / Blue PT. 2: Manic"
+                            showName="Izzy Iz"
                         />
                         <ScheduleItem
                             showTime="20:00"
-                            showName="Jader Toya - Truck Cantine"
+                            showName="herbal tea"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "Lindrum"
+                            showName= "jonas"
                 />
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 16.02"
+                    showDate="Friday 3rd March"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="Osler"
+                    showName="Sarge"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="DJ Project Manager"
+                    showName="Good and Proper w/ Wobbegong"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="MBB"  
+                    showName="Yuqq"  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="UNEARTH / ELSA"
+                    showName="Rose A"
                 />
             </table>
         </div>
