@@ -32,26 +32,26 @@ const Schedule = () => {
             </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Thursday 2nd March"
+                    showDate="Thursday 10th March"
                     />
                         <ScheduleItem
                             showTime="18:00"
-                            showName="The Fat Britney"
+                            showName="DEAF LOOP"
                         />
                         <ScheduleItem
                             showTime="19:00"
-                            showName="Izzy Iz"
+                            showName="MC LOVE: DUB SESSION 1 "
                         />
                         <ScheduleItem
                             showTime="20:00"
-                            showName="herbal tea"
+                            showName="BRUK It Down w/ Rendezvous Records"
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "jonas"
+                            showName= "cabby & SFM: belated bonfire b2bcabby & SFM: belated bonfire b2b"
                 />
             </table>
-            <table className="schedule-table">
+            {/* <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Friday 3rd March"
                 />
@@ -71,7 +71,7 @@ const Schedule = () => {
                     showTime="21:00"
                     showName="Rose A"
                 />
-            </table>
+            </table> */}
         </div>
     )
 }
