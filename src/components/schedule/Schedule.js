@@ -48,7 +48,7 @@ const Schedule = () => {
                         />
                         <ScheduleItem
                             showTime="21:00"
-                            showName= "cabby & SFM: belated bonfire b2bcabby & SFM: belated bonfire b2b"
+                            showName="cabby & SFM: belated bonfire b2b"
                 />
             </table>
             {/* <table className="schedule-table">
