@@ -53,11 +53,11 @@ const Schedule = () => {
             </table>
             <table className="schedule-table">
                 <ScheduleDate 
-                    showDate="Friday 3rd March"
+                    showDate="Friday 17th March"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="CELSIUS"
+                    showName="CELIUS"
                 />
                 <ScheduleItem
                     showTime="19:00"
