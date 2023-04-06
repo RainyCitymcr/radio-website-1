@@ -9,6 +9,8 @@ const About = () => {
                 Established in July 2021 in Manchester, Rainy City Radio broadcasts out of Old Trafford to showcase sounds from the rainy city and beyond.
 
                 Our core values are to broadcast high quality music; to create a safe and inclusive environment to nurture and encourage upcoming and existing talent; and give back to the community.
+
+                Funding recevied from The National Lottery Community Fund.
             </p>
         </div>
     )
