@@ -6,8 +6,8 @@ const Footer = () => {
         <>
             <div className="footer-wrapper">
                 <div className="left">
-                    <img src="/images/footerlogo.png" alt="logo" className="logo" />
-                    <img src="public\images\digital-white-background.png" alt="nationallottery" />
+                    <img src="/images/digital-white-background.png" alt="logo" className="logo" />
+                    {/* <img src="/images/digital-white-background.png" alt="nationallottery" /> */}
                 </div>
                 <div className="footer-right">
                 <ul className="footer-nav-menu">
