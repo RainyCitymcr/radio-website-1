@@ -14,23 +14,27 @@ const Schedule = () => {
                     showDate="Wednesday 15th March"
                 />
                     <ScheduleItem
+                        showTime="17:00"
+                        showName= "Paul East pres. Disconnection"
+                    />
+                    <ScheduleItem
                         showTime="18:00"
-                        showName= "Rapatop Radio Tour w/ DJ Luh (Hollow Points Radio)"
+                        showName= "Internet Culture by @takenbymarshall"
                     />
                     <ScheduleItem
                         showTime="19:00"
-                        showName="P45 SHOW w/ SOZA"
+                        showName="wilfred "
                     />
                     <ScheduleItem
                         showTime="20:00"
-                        showName="Lindrum"
+                        showName="Felicia Buena"
                     />
-                    {/* <ScheduleItem
+                    <ScheduleItem
                         showTime="21:00"
-                        showName= "Lindrum b2b aDeAd"
-                    /> */}
+                        showName= "Last Minute Film Club with Queenie"
+                    />
             </table>
-            <table className="schedule-table">
+            {/* <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Thursday 16th March"
                     />
@@ -50,26 +54,26 @@ const Schedule = () => {
                         //     showTime="21:00"
                         //     showName="cabby & SFM: belated bonfire b2b"
                 />
-            </table>
+            </table> */}
             <table className="schedule-table">
                 <ScheduleDate 
                     showDate="Friday 17th March"
                 />
                 <ScheduleItem
                     showTime="18:00"
-                    showName="CELIUS"
+                    showName="Jase Jeffery"
                 />
                 <ScheduleItem
                     showTime="19:00"
-                    showName="DJ Project Manager"
+                    showName="More Gain"
                 />
                 <ScheduleItem
                     showTime="20:00"
-                    showName="MBB"  
+                    showName="Dan Traynor "  
                 />
                 <ScheduleItem
                     showTime="21:00"
-                    showName="Unearth St. Patrick's Day Special / with ex.sess and Elsa"
+                    showName="cabby w/ VIRAL.019"
                 />
             </table>
         </div>
