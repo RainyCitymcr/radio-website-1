@@ -129,34 +129,6 @@ const Navbar = () => {
       </>
     )
 }
-// // Get the current date and time
-// const now = new Date();
-
-// // Set the desired times (6, 7, 8, 9, and 10 pm)
-// const desiredTimes = [
-//   new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 0),
-//   new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 0, 0),
-//   new Date(now.getFullYear(), now.getMonth(), now.getDate(), 20, 0, 0),
-//   new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 0, 0),
-//   new Date(now.getFullYear(), now.getMonth(), now.getDate(), 22, 0, 0)
-// ];
-
-// // Loop through the desired times and set timeouts to execute the desired code
-// for (let i = 0; i < desiredTimes.length; i++) {
-//   const timeUntilDesiredTime = desiredTimes[i] - now;
-  
-//   // If the desired time is in the future, set a timeout to update the text
-//   if (timeUntilDesiredTime > 0) {
-//     setTimeout(() => {
-//       // Code to execute at the desired time goes here
-//       const djNames = ['DJ Name 1', 'DJ Name 2', 'DJ Name 3', 'DJ Name 4', 'DJ Name 5'];
-//       const index = i;
-//       const djName = djNames[index];
-//       const audioPlayerText = document.querySelector('.audio-player-text');
-//       audioPlayerText.textContent = djName;
-//     }, timeUntilDesiredTime);
-//   }
-// }
 
 
 export default Navbar;
