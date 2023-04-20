@@ -120,7 +120,7 @@ const Navbar = () => {
                 <div className="audio-player-container">
                   <Player />
                   {/* Inside the p tags here, write the DJ's name */}
-                  <p className="audio-player-text">{ updateText } </p>
+                  <p className="audio-player-text">hey</p>
                 </div>
               </ul>
             </div>
