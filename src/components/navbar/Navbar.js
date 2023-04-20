@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 import {Link, animateScroll as scroll} from 'react-scroll';
 import Player from '../player/Player';
+import { updateText } from '../player/audioPlayerText';
+// Call updateText every minute to check for time changes
+setInterval(updateText, 60000);
 
 const Navbar = () => {
 
@@ -117,7 +120,7 @@ const Navbar = () => {
                 <div className="audio-player-container">
                   <Player />
                   {/* Inside the p tags here, write the DJ's name */}
-                  <p className="audio-player-text"></p>
+                  <p className="audio-player-text">{ updateText } </p>
                 </div>
               </ul>
             </div>
